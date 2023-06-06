@@ -1,0 +1,20 @@
+/*{color : blueviolet;background-color: rgb(0, 0, 0);}(Universal combinator)*/
+h1{color: blue;}
+p{color: aquamarine;}
+.custom{color: olive;}
+.special{color: red;}
+.custom{color: olive !important;}
+#blacked{color: greenyellow;}
+a{color: lightblue;}
+a[href="instagram"]{color: darkorange;}
+div,span,h1,em{color: darkslategrey;}/* we do add a color-at a-time for all those elements */
+/*an> p{background-color: indianred;}
+div,span,h1,em .custom{background-color: pink;}/* we do add a color-at a-time for all those elements */
+li{list-style-type: disc;
+color: lightgreen;}
+li li{color: magenta;} /* This is a desendent combinator */
+li > li{color: magenta;} /* This is a child combinator */
+h1, p {color: lightcoral};/* This is a adjacent child combinator */
+h1 + p {color: lightcoral};/* This is a adjacent child combinator */
+h1~p{color: blue;}/*general sibiling combinator */
+
